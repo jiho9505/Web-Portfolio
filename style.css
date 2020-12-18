@@ -140,3 +140,47 @@ p {
     color: var(--color-white);
     display: none;
 }
+
+#home {
+    padding: 40px;
+    background: url("https://s3.amazonaws.com/thinkific-import-development/292401/homebackground-200515-154505.png") center/cover no-repeat;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.home__avatar {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 2px solid var(--color-light-white);
+}
+
+.home__title,
+.home__description {
+    color: var(--color-white);
+}
+
+.home__contact {
+    color: var(--color-white);
+    font-size: var(--font-regular);
+    font-weight: var(--weight-bold);
+    margin: 24px;
+    padding: 8px 12px;
+    border: 2px solid var(--color-white);
+    border-radius: var(--size-border-radius);
+}
+
+.home__contact:hover {
+    background-color: var(--color-main);
+}
+
+.section {
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.section__container {
+    max-width: 1200px;
+    margin: auto;
+}
