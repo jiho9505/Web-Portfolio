@@ -92,7 +92,7 @@ p {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: var(--color-dark-grey); /*transparent*/ 
+    background-color: transparent;
     color: var(--color-white);
     align-items: center;
     padding: 16px;
