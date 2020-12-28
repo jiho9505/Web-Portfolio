@@ -27,6 +27,11 @@ navbarMenu.addEventListener("click", (e) => {
     scrollIntoView(link);
 });
 
+const navbarToggleBtn = document.querySelector(".navbar__toggle-btn");
+navbarToggleBtn.addEventListener("click", () => {
+    navbarMenu.classList.toggle("open");
+});
+
 const homeContactBtn = document.querySelector(".home__contact");
 homeContactBtn.addEventListener("click", () => {
     scrollIntoView("#contact");
