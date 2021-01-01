@@ -17,7 +17,7 @@
      <nav id="navbar">
       <div class="navbar__logo">
         <i class="fas fa-bolt"></i>
-          <a href="#">Jiho</a>
+          <a class="navbar__link" href="#">Jiho</a>
       </div>
           
       <ul class="navbar__menu">
@@ -46,55 +46,58 @@
     <section id="home">
         <div class="home__container">
             <img src="imgs/profile.jpg" alt="Jiho's profile photo" class="home__avatar" />
-            <h1 class="home__title">Hello,<br/> I'm Jiho</h1>
-            <h2 class="home__description">안녕하세요, 한단계씩 성장하고 있는 문지호입니다.</h2>
-            <button class="home__contact">Contact Me</button>
+            <div class="home__write">
+                <h1 class="home__title">Welcome,<br/> This is Jiho's Portfolio</h1>
+                <h2 class="home__description">안녕하세요, 꾸준히 성장하는 개발자 문지호입니다.</h2>
+                <div class="job">
+                    <img
+                        src="imgs/dongguk.jpg"
+                        alt="dongguk logo"
+                        class="job__logo"
+                    />
+                    <div class="job__description">
+                        <p class="job__name">동국대학교 정보통신공학과</p>
+                        <p class="job__period">2015.03.01 - 2021.06.15</p>
+                    </div>
+                </div>
+            </div>
         </div>
+        <br/>
+        <div class="bordertop"></div>
         
     </section>
 
-    <section id="about" class="section section__container">
-      <h1>About me</h1>
-      
-      <div class="about__majors">
-          <div class="major">
-              <div class="major__icon">
-                  <i class="fab fa-react"></i>
-              </div>
-              <div class="major__title">Front-end</div>
-              <div class="major__description">Html, Css, Antd, JS, React</div>
-          </div>
-          
-           <div class="major">
-              <div class="major__icon">
-                  <i class="fab fa-node"></i>
-                  
-              </div>
-              <div class="major__title">Back-end</div>
-              <div class="major__description">Node.js</div>
-          </div>
-          
-           <div class="major">
-              <div class="major__icon">
-                  <i class="fas fa-server"></i>
-              </div>
-              <div class="major__title">Data-base</div>
-              <div class="major__description">MySQL, MongoDB</div>
-          </div>
-      </div>
-      <div class="about__jobs">
-        <div class="job">
-            <img
-                src="imgs/dongguk.jpg"
-                alt="dongguk logo"
-                class="job__logo"
-            />
-            <div class="job__description">
-                <p class="job__name">동국대학교 정보통신공학과</p>
-                <p class="job__period">2015.03.01 - 2021.06.15</p>
+    <section id="about">
+        <div class="section section__container">
+            <h1>About me</h1>
+            
+            <div class="about__majors">
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="major__title">Front-end</div>
+                    <div class="major_description">Html, Css, Antd, JS, React</div>
+                </div>
+                
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fab fa-node"></i>
+                        
+                    </div>
+                    <div class="major__title">Back-end</div>
+                    <div class="major__description">Node.js</div>
+                </div>
+                
+                <div class="major">
+                    <div class="major__icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="major__title">Data-base</div>
+                    <div class="major__description">MySQL, MongoDB</div>
+                </div>
             </div>
-        </div>
-    </div>
+            </div>
     </section>
 
     <section id="skills" class="section">

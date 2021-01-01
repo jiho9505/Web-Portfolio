@@ -92,7 +92,7 @@ p {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    background-color: transparent;
+    background-color: black;
     color: var(--color-white);
     align-items: center;
     padding: 16px;
@@ -101,7 +101,6 @@ p {
 }
 
 #navbar.navbar--dark {
-    background-color: var(--color-black);
     padding: 8px;
 }
 
@@ -114,12 +113,13 @@ p {
     font-weight: var(--weight-semi-bold);
 }
 
+
 .navbar__menu__item {
     padding: 8px 12px;
     margin: 0 4px;
     color: var(--color-white);
     cursor: pointer;
-    border: 1px solid transparent;
+    border: 1px solid black;
     border-radius: var(--size-border-radius);
 }
 
@@ -143,12 +143,32 @@ p {
 
 #home {
     padding: 40px;
-    background: url("https://s3.amazonaws.com/thinkific-import-development/292401/homebackground-200515-154505.png") center/cover no-repeat;
-    text-align: center;
-    padding-top: 120px;
+    padding-top: 160px;
+    background-color: white;
+    margin-bottom: 270px;
+    transform: translateY(15%);
 }
 
+.home__write{
+    margin-left: 50px;
+}
+
+.home__container{
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+    border-bottom: 1px solid #18c6b5;
+    padding-bottom: 40px;
+}
+
+.bordertop{
+    max-width: 1200px;
+    margin : auto;
+    border-top: 1px solid;
+}
 .home__avatar {
+    margin-left: 40px;
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -157,16 +177,16 @@ p {
 
 .home__title,
 .home__description {
-    color: var(--color-white);
+    color: var(--color-black);
 }
 
 .home__contact {
-    color: var(--color-white);
+    color: var(--color-black);
     font-size: var(--font-regular);
     font-weight: var(--weight-bold);
-    margin: 24px;
+    margin: 12px 0px;
     padding: 8px 12px;
-    border: 2px solid var(--color-white);
+    border: 2px solid var(--color-black);
     border-radius: var(--size-border-radius);
 }
 
@@ -183,6 +203,10 @@ p {
 .section__container {
     max-width: 1200px;
     margin: auto;
+}
+
+#about {
+    background-color: var(--color-light-white);
 }
 
 .about__majors {
