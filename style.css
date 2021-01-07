@@ -166,6 +166,7 @@ p {
     max-width: 1200px;
     margin : auto;
     border-top: 1px solid;
+    transform: translateY(-10px);
 }
 .home__avatar {
     margin-left: 40px;
@@ -205,6 +206,26 @@ p {
     margin: auto;
 }
 
+.aboutmeset{
+    display: flex;
+    margin: auto;
+    width: 60%;
+    text-align: left;
+    justify-content: space-between
+}
+
+
+.aboutmeset__title{
+    color: #18c6b5;
+}
+.about__grade {
+    height: 400px;
+}
+
+.about__gradeimg {
+    height: 100%;
+}
+
 #about {
     background-color: var(--color-light-white);
 }
@@ -225,6 +246,7 @@ p {
     border: 1px solid var(--color-blue);
     border-radius: 50%;
     margin-bottom: 16px;
+    background-color: white;
 }
 
 .major__icon i {
@@ -273,14 +295,17 @@ p {
 }
 
 #skills {
-    background-color: var(--color-yellow);
+    background-color: var(--color-light-white);
 }
 
 .skillset {
     display: flex;
     background-color: var(--color-light-grey);
     color: var(--color-light-white);
-    margin: 20px 0;
+    margin: auto;
+    width: 70%;
+    justify-content: center;
+    
 }
 
 .skillset__title {
@@ -288,9 +313,9 @@ p {
 }
 
 .skillset__left {
-    flex-basis: 60%;
     background-color: var(--color-dark-grey);
     padding: 20px 40px;
+    flex-basis: 100%;
 }
 
 .skill {
@@ -483,18 +508,13 @@ p {
 }
 
 #contact {
-    background-color: var(--color-main);
+    background-color: var(--color-black);
 }
 
-.contact__title,
-.contact__email,
 .contact__rights {
     color: var(--color-white);
 }
 
-.contact__title {
-    margin: 32px 0;
-}
 
 .contact__links {
     font-size: var(--font-large);
@@ -507,7 +527,12 @@ p {
 
 .contact__links i:hover {
     transform: scale(1.1);
-    color: var(--color-dark-main);
+    color: var(--color-light-white);
+}
+
+.contact__email {
+    color: var(--color-white);
+    font-size: var(--font-small);
 }
 
 .arrow-up {
