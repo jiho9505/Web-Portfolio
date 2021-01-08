@@ -300,20 +300,21 @@ p {
 
 .skillset {
     display: flex;
-    background-color: var(--color-light-grey);
-    color: var(--color-light-white);
+    background-color: var(--color-white);
+    color: var(--color-black);
     margin: auto;
     width: 70%;
     justify-content: center;
+    border-radius: 15px;
     
 }
 
 .skillset__title {
-    color: var(--color-white);
+    color: var(--color-black);
 }
 
 .skillset__left {
-    background-color: var(--color-dark-grey);
+   
     padding: 20px 40px;
     flex-basis: 100%;
 }
