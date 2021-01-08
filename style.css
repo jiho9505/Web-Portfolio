@@ -543,7 +543,7 @@ p {
     width: 70px;
     height: 70px;
     font-size: 50px;
-    background-color: var(--color-main);
+    background-color: var(--color-black);
     color: var(--color-white);
     border-radius: 50%;
     opacity: 0;
