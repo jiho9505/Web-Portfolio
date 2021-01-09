@@ -509,6 +509,14 @@ p {
     color: var(--color-main);
 }
 
+.activity__button {
+    border-radius: 5px;
+    border : 0.5px solid black;
+    font-size: var(--font-small);
+    color: var(--color-light-grey);
+    padding: 3px 7px;
+}
+
 #contact {
     background-color: var(--color-black);
 }

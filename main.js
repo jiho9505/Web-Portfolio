@@ -33,9 +33,11 @@ navbarToggleBtn.addEventListener("click", () => {
 });
 
 const home = document.querySelector(".home__container");
+const homebot = document.querySelector(".home__botcontainer");
 const homeHeight = home.getBoundingClientRect().height;
 document.addEventListener("scroll", () => {
-    home.style.opacity = 1 - window.scrollY / homeHeight;
+    home.style.opacity = 1 - window.scrollY / (homeHeight * 2.5);
+    homebot.style.opacity = 1 - window.scrollY / (homeHeight * 2.5);
 });
 
 const arrowUp = document.querySelector(".arrow-up");
@@ -55,3 +57,8 @@ function scrollIntoView(selector) {
     const scrollTo = document.querySelector(selector);
     scrollTo.scrollIntoView({ behavior: "smooth" });
 }
+
+const actButton = document.querySelector(".activity__button")   
+actButton.addEventListener("click", () => {
+    
+});
