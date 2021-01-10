@@ -644,6 +644,14 @@ p {
         display: block;
     }
 
+    .home__container{
+        flex-direction: column;
+    }
+
+    .aboutmeset{
+        flex-direction: column;
+    }
+
     .section {
         padding: 16px;
     }
