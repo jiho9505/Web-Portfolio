@@ -58,7 +58,29 @@ function scrollIntoView(selector) {
     scrollTo.scrollIntoView({ behavior: "smooth" });
 }
 
-const actButton = document.querySelector(".activity__button")   
-actButton.addEventListener("click", () => {
-    
+const actButton1 = document.querySelector(".activity__button1")
+const actButton2 = document.querySelector(".activity__button2")     
+const actButton3 = document.querySelector(".activity__button3")  
+const actButton4 = document.querySelector(".activity__button4")  
+const actButton5 = document.querySelector(".activity__button5")  
+const actPhoto = document.querySelectorAll(".activity__photos")  
+
+actButton1.addEventListener("click", () => {
+    actPhoto[0].classList.toggle('view')
+});
+
+actButton2.addEventListener("click", () => {
+    actPhoto[1].classList.toggle('view')
+});
+
+actButton3.addEventListener("click", () => {
+    actPhoto[2].classList.toggle('view')
+});
+
+actButton4.addEventListener("click", () => {
+    actPhoto[3].classList.toggle('view')
+});
+
+actButton5.addEventListener("click", () => {
+    actPhoto[4].classList.toggle('view')
 });

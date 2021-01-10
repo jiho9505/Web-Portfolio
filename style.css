@@ -509,7 +509,17 @@ p {
     color: var(--color-main);
 }
 
-.activity__button {
+.activity__photos {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.activity__photos.view {
+    display: flex;
+}
+
+.activity__button1 {
     border-radius: 5px;
     border : 0.5px solid black;
     font-size: var(--font-small);
@@ -517,6 +527,37 @@ p {
     padding: 3px 7px;
 }
 
+.activity__button2 {
+    border-radius: 5px;
+    border : 0.5px solid black;
+    font-size: var(--font-small);
+    color: var(--color-light-grey);
+    padding: 3px 7px;
+}
+
+.activity__button3 {
+    border-radius: 5px;
+    border : 0.5px solid black;
+    font-size: var(--font-small);
+    color: var(--color-light-grey);
+    padding: 3px 7px;
+}
+
+.activity__button4 {
+    border-radius: 5px;
+    border : 0.5px solid black;
+    font-size: var(--font-small);
+    color: var(--color-light-grey);
+    padding: 3px 7px;
+}
+
+.activity__button5 {
+    border-radius: 5px;
+    border : 0.5px solid black;
+    font-size: var(--font-small);
+    color: var(--color-light-grey);
+    padding: 3px 7px;
+}
 #contact {
     background-color: var(--color-black);
 }
