@@ -35,9 +35,10 @@ navbarToggleBtn.addEventListener("click", () => {
 const home = document.querySelector(".home__container");
 const homebot = document.querySelector(".home__botcontainer");
 const homeHeight = home.getBoundingClientRect().height;
+const homebotHeight = homebot.getBoundingClientRect().height;
 document.addEventListener("scroll", () => {
-    home.style.opacity = 1 - window.scrollY / (homeHeight * 2.5);
-    homebot.style.opacity = 1 - window.scrollY / (homeHeight * 2.5);
+    home.style.opacity = 1 - window.scrollY / (homebotHeight * 2.5);
+    homebot.style.opacity = 1 - window.scrollY / (homebotHeight * 2.5);
 });
 
 const arrowUp = document.querySelector(".arrow-up");
