@@ -1,4 +1,4 @@
-"use stric";
+"use strict";
 
 const navbar = document.querySelector("#navbar");
 const navbarHeight = navbar.getBoundingClientRect().height;
@@ -37,8 +37,8 @@ const homebot = document.querySelector(".home__botcontainer");
 const homeHeight = home.getBoundingClientRect().height;
 const homebotHeight = homebot.getBoundingClientRect().height;
 document.addEventListener("scroll", () => {
-    home.style.opacity = 1 - window.scrollY / (homebotHeight * 2.5);
-    homebot.style.opacity = 1 - window.scrollY / (homebotHeight * 2.5);
+    home.style.opacity = 1 - window.scrollY / (homebotHeight * 5);
+    homebot.style.opacity = 1 - window.scrollY / (homebotHeight * 5);
 });
 
 const arrowUp = document.querySelector(".arrow-up");
