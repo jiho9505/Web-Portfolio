@@ -61,12 +61,13 @@ function scrollIntoView(selector) {
 
 const actButtons = document.querySelectorAll(".activity__button")
 const actPhoto = document.querySelectorAll(".activity__photos")  
-let index = 0
-actButtons.forEach(actButton => {
+
+actButtons.forEach((actButton,index) => {
+    
     actButton.addEventListener("click", () => {
-        actPhoto[index].classList.toggle('view')
+         actPhoto[index].classList.toggle('view')
     });
-    index++
+    
 })
 
 
