@@ -40,6 +40,7 @@ body {
     font-family: 'Noto Sans KR', sans-serif; 
     margin: 0;
     cursor: default;
+    overflow: auto
 }
 
 a {
@@ -124,11 +125,10 @@ p {
 }
 
 .navbar__menu__item.active {
-    border: 1px solid white;
+    border-color: var(--color-white);
 }
 
 .navbar__menu__item:hover {
-    background-color: var(--color-dark-main);
     border-color: var(--color-white);
 }
 
