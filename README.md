@@ -18,7 +18,7 @@
 <p>- 결론: 잘 배운 스킬로 나만의 포트폴리오를 작성하고 프론트엔드 성장 단계를 높혔다.</p>
 
 ## 최종 결과물
-🏠 [Homepage](https://jiho9505.github.io/Web-Portfolio/)
+🏠 [Homepage](https://jiho9505.github.io/Portfolio/)
 <br><br/>
 
 ## Usage
